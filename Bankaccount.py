@@ -18,4 +18,4 @@ class BankAccount:
             else:
                 return self.balance
     def __str__(self):
-        return f"Account id is{self.account_id} with pincode {self.pin_code}. The cardholder is named {self.holder_name} with a balance of {self.balance} euros."
+        return f"Account id is {self.account_id} with pincode {self.pin_code}. The cardholder is named {self.holder_name} with a balance of {self.balance} euros."
